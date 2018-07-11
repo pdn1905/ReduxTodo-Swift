@@ -16,9 +16,12 @@ class TodoCell: UITableViewCell {
   override func awakeFromNib() {
     super.awakeFromNib()
     print("taskNameLabel")
+    print("awakeFromNib")
   }
 
   @IBAction func deleteAction(_ sender: Any) {
+    print("deleteAction")
+    print("deleteActionHandler")
     self.deleteActionHandler?()
   }
 }

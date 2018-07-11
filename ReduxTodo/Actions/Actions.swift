@@ -11,7 +11,7 @@ import ReSwift
 struct AddTask: Action {
   var name: String
 }
-
+//MARK: Action
 struct DeleteTask: Action {
   var index: Int
 }
